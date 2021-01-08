@@ -16,6 +16,11 @@ Supported Target Formats
 - yaml
 - toml
 
+TODOS
+======
+- Image conversion (png <=> jpeg, ... etc)
+- Docs conversion (docs <=> pdf, ... etc)
+
 Examples
 =========
 
