@@ -36,3 +36,5 @@ $ cat example.csv | a2a csv2json | a2a --dest ./result.yaml --src=another1.json 
 
 Installations
 ==============
+- from source: `go get github.com/alash3al/a2a`
+- binary download: go to [there](https://github.com/alash3al/a2a/releases) and download the binary which support your env
