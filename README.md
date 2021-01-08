@@ -1,6 +1,6 @@
 any-to-any
 ==========
-> convert anything to anything
+> convert anything to anything, currently it supports some of text-file formats only
 
 Supported Source Formats
 =========================
