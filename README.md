@@ -1,6 +1,6 @@
-any-to-any
+re-txt
 ==========
-> convert anything to anything, currently it supports some of text-file formats only
+> reformates a text file from a structure to another, i.e: convert from json to yaml, toml to json, ... etc
 
 Supported Source Formats
 =========================
@@ -16,30 +16,25 @@ Supported Target Formats
 - yaml
 - toml
 
-TODOS
-======
-- Image conversion (png <=> jpeg, ... etc)
-- Docs conversion (docs <=> pdf, ... etc)
-
 Examples
 =========
 
 ```bash
 # json to yaml using flag
-$ a2a --src example.json json2yaml
+$ re-txt --src example.json json2yaml
 
 # json to yaml using stdin pipe
-$ cat example.json | a2a json2yaml
+$ cat example.json | re-txt json2yaml
 
 # csv to yaml by first converting to json
-$ cat example.csv | a2a csv2json | a2a json2yaml
+$ cat example.csv | re-txt csv2json | re-txt json2yaml
 
 # csv to yaml by first converting to json
 # also merge multiple json files and convert the piped result & them into yaml
-$ cat example.csv | a2a csv2json | a2a --dest ./result.yaml --src=another1.json --src=another2.json json2yaml
+$ cat example.csv | re-txt csv2json | re-txt --dest ./result.yaml --src=another1.json --src=another2.json json2yaml
 ```
 
 Installations
 ==============
-- from source: `go get github.com/alash3al/a2a`
-- binary download: go to [there](https://github.com/alash3al/a2a/releases) and download the binary which support your env
+- from source: `go get github.com/alash3al/re-txt`
+- binary download: go to [there](https://github.com/alash3al/re-txt/releases) and download the binary which support your env
