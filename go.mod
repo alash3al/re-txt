@@ -1,4 +1,4 @@
-module github.com/alash3al/a2a
+module github.com/alash3al/re-txt
 
 go 1.15
 
