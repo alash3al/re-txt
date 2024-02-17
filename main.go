@@ -4,15 +4,15 @@ import (
 	"log"
 	"os"
 
-	"github.com/alash3al/a2a/handlers"
+	"github.com/alash3al/re-txt/handlers"
 	"github.com/urfave/cli/v2"
 
-	_ "github.com/alash3al/a2a/handlers/text"
+	_ "github.com/alash3al/re-txt/handlers/text"
 )
 
 func main() {
 	app := &cli.App{
-		Name:                 "a2a",
+		Name:                 "re-txt",
 		Usage:                "convert anything to anything",
 		EnableBashCompletion: true,
 		Commands:             []*cli.Command{},

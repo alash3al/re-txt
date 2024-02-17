@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
-	"github.com/alash3al/a2a/handlers"
+	"github.com/alash3al/re-txt/handlers"
 	"github.com/hashicorp/hcl"
 	"gopkg.in/yaml.v2"
 )

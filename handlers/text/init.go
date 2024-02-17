@@ -1,7 +1,7 @@
 package text
 
 import (
-	"github.com/alash3al/a2a/handlers"
+	"github.com/alash3al/re-txt/handlers"
 	"github.com/urfave/cli/v2"
 )
 
